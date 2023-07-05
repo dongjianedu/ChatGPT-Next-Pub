@@ -13,6 +13,7 @@ const en: RequiredLocaleType = {
     Input: "access code",
     Confirm: "Confirm",
     Later: "Later",
+    Buy: "no code？click to buy",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
