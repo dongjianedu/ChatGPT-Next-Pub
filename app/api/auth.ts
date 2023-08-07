@@ -43,7 +43,7 @@ export function auth(req: NextRequest) {
   if (serverConfig.needCode && !serverConfig.codes.has(hashedCode) && !token) {
     return {
       error: true,
-      msg: !accessCode ? "empty access code" : "wrong access code",
+      msg: !accessCode ? "empty access code" : "错误的授权码或授权码已失效",
     };
   }
 
