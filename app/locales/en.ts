@@ -5,7 +5,7 @@ const en: RequiredLocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "Unauthorized access, please enter access code in [auth](/#/auth) page.or buy code in [code](https://pay.gpttool.tech/product/2.html)",
+      "Unauthorized access, please enter access code in [auth](/#/auth) page.or buy code in [code](https://pay.gptstool.tech/product/2.html)",
   },
   Auth: {
     Title: "Need Access Code",
