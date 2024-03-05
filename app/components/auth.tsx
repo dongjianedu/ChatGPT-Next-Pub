@@ -40,7 +40,7 @@ export function AuthPage() {
           onClick={goHome}
         />
         <IconButton text={Locale.Auth.Later} onClick={goHome} />
-        <Link to="https://pay.gpttool.tech/product/2.html">
+        <Link to="https://pay.gptstool.tech/product/2.html">
           <IconButton text={Locale.Auth.Buy} />
         </Link>
       </div>
